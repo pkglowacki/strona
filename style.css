@@ -1,0 +1,44 @@
+body
+{
+  margin-top: 72px;
+}
+
+#mainNav
+{
+  background-image: url("https://image.freepik.com/free-vector/bright-background-with-dots_1055-3132.jpg");
+  background-size: cover;
+}
+
+.portfolio
+{
+  background-image: url("https://image.freepik.com/free-vector/abstract-vector-mesh-background-chaotically-connected-points-and-polygons-flying-in-space-flying-debris-futuristic-technology-style-card-lines-points-circles-and-planes-futuristic-design_1217-713.jpg");
+  background-size: cover;
+}
+
+.portfolio-item
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact
+{
+  color: white;
+  background-image: url("https://image.freepik.com/free-vector/royal-watercolor-valentine-red-background_1340-4028.jpg");
+  background-size: cover;
+}
+.contact .form-group
+{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.copyright
+{
+  background-color: #1a252f;
+}
+a {
+  color: #18BC9C; }
+  a:focus, a:hover, a:active {
+  color: #128f76;
+  }

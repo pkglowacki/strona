@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">O Mnie</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="portfolio" id="portfolio">
+     <div class="container">
+       <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+       <hr class="star-dark mb-5">
+       <div class="row">
+         <div class="col-md-6 col-lg-4">
+           <a class="portfolio-item d-block mx-auto mt-10" href="#portfolio-modal-1">
+            <img class="img-fluid" src="http://via.placeholder.com/900x650" alt="">
+           </a>
+         </div>
+         <div class="col-md-6 col-lg-4">
+           <a class="portfolio-item d-block mx-auto mt-10" href="#portfolio-modal-2">
+             <img class="img-fluid" src="http://via.placeholder.com/900x650" alt="">
+           </a>
+         </div>
+         <div class="col-md-6 col-lg-4">
+           <a class="portfolio-item d-block mx-auto mt-10" href="#portfolio-modal-3">
+             <img class="img-fluid" src="http://via.placeholder.com/900x650" alt="">
+           </a>
+         </div>
+         <div class="col-md-6 col-lg-4">
+           <a class="portfolio-item d-block mx-auto mt-10" href="#portfolio-modal-4">
+             <img class="img-fluid" src="http://via.placeholder.com/900x650" alt="">
+           </a>
+         </div>
+         <div class="col-md-6 col-lg-4">
+           <a class="portfolio-item d-block mx-auto mt-10" href="#portfolio-modal-5">
+             <img class="img-fluid" src="http://via.placeholder.com/900x650" alt="">
+           </a>
+         </div>
+         <div class="col-md-6 col-lg-4">
+           <a class="portfolio-item d-block mx-auto mt-10" href="#portfolio-modal-6">
+             <img class="img-fluid" src="http://via.placeholder.com/900x650" alt="">
+           </a>
+         </div>
+       </div>
+     </div>
+   </section>
+
+   <section class="contact" id="contact" >
+     <div class="container">
+       <h2 class="text-center text-uppercase text-secondary mb-0">Kontakt</h2>
+       <hr class="star-dark mb-5">
+
+       <form>
+         <div class="form-group">
+           <div class="row">
+             <div class="form-group col-md-4">
+               <label for="exampleInputImie1">Imie <small data-toggle="popover" title="Pole Wymagane">*</small></label>
+               <input type="text" class="form-control" id="exampleInputImie1" required>
+             </div>
+             <div class="form-group col-md-4">
+               <label for="exampleInputNazwisko1">Nazwisko <small data-toggle="popover" title="Pole Wymagane">*</small></label>
+               <input type="text" class="form-control" id="exampleInputNazwisko1" required>
+             </div>
+           </div>
+           <div class="row">
+             <div class="form-group col-md-4">
+               <label for="exampleInputEmail1">Adres Email</label>
+               <input type="email" class="form-control" id="exampleInputEmail1" required>
+             </div>
+             <div class="form-group col-md-4">
+               <label for="exampleInputTel1">Numer Telefonu <small data-toggle="popover" title="Pole Wymagane">*</small></label>
+               <input type="number" class="form-control" id="exampleInputTel1" required>
+             </div>
+           </div>
+             <label for="exampleInputTresc1">Treść wiadomości <small data-toggle="popover" title="Pole Wymagane">*</small></label>
+             <textarea name="tresc" rows="8" cols="95"></textarea>
+        </div>
+        <center><button type="submit" class="btn btn-primary">Wyślij</button></center>
+       </form> <br>
+     </div>
+   </section>
+
+   <div class="copyright py-4 text-center text-white">
+     <div class="container">
+       <small>Copyright &copy;2018</small>
+     </div>
+   </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="strona.js" charset="utf-8"></script>
+  </body>
+</html>
